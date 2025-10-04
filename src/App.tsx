@@ -168,7 +168,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Heavy Commissions Eat Your Profits</h3>
-                      <p className="text-gray-700">Pay <span className="font-bold text-red-600 text-2xl">15-25% commission</span> on every room booking to OTAs. If your room is ₹2,000/night, you lose ₹300-500 per booking to platforms!</p>
+                      <p className="text-gray-700">Pay <span className="font-bold text-red-600 text-xl">15-25% commission</span> on every room booking to OTAs. If your room is ₹2,000/night, you lose ₹300-500 per booking to platforms!</p>
                     </div>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Lose Guests to High Room Prices</h3>
-                      <p className="text-gray-700">You increase room rates to cover commissions. Guests see <span className="font-bold text-red-600 text-2xl">inflated prices</span> and book your competitor's homestay instead!</p>
+                      <p className="text-gray-700">You increase room rates to cover commissions. Guests see <span className="font-bold text-red-600 text-xl">inflated prices</span> and book your competitor's homestay instead!</p>
                     </div>
                   </div>
                 </div>
@@ -198,7 +198,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Delayed Payments</h3>
-                      <p className="text-gray-700">Wait <span className="font-bold text-red-600 text-2xl">7-30 days</span> to receive your money. Your cash flow suffers!</p>
+                      <p className="text-gray-700">Wait <span className="font-bold text-red-600 text-xl">7-30 days</span> to receive your money. Your cash flow suffers!</p>
                     </div>
                   </div>
                 </div>
@@ -213,7 +213,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Limited Guest Contact</h3>
-                      <p className="text-gray-700"><span className="font-bold text-red-600 text-2xl">OTAs control</span> all guest communication. Hard to build relationships and get repeat bookings for your homestay!</p>
+                      <p className="text-gray-700"><span className="font-bold text-red-600 text-xl">OTAs control</span> all guest communication. Hard to build relationships and get repeat bookings for your homestay!</p>
                     </div>
                   </div>
                 </div>
