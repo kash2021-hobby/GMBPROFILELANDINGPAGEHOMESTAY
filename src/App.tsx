@@ -32,7 +32,10 @@ function App() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    alert('Thank you! We will contact you soon for your FREE audit.');
+
+    const message = `Hi! I'm interested in Google Business Profile optimization.%0A%0AName: ${formData.fullName}%0AWhatsApp: ${formData.whatsapp}%0AEmail: ${formData.email}%0ABusiness: ${formData.businessName}%0ALocation: ${formData.location}`;
+
+    window.location.href = `https://wa.me/916000683808?text=${message}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
