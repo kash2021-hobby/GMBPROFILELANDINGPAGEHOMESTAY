@@ -104,11 +104,11 @@ Location: ${formData.location}`;
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Why pay third-party platforms?<br />
-              <span className="text-green-400">When you can get unlimited customers for FREE from Google.</span>
+              Attention: Homestay & Hotel Owners!<br />
+              <span className="text-green-400">Stop paying commissions. Get unlimited guests directly from Google for FREE.</span>
             </h1>
             <p className="text-xl md:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
-              We help local homestay businesses like yours get found by more customers on Google, drive more direct bookings every day, and never pay a single penny in commission again.
+              Are you tired of losing 15-25% on every booking to OTAs? We help homestay and hotel owners like you get more guests directly from Google, increase your room bookings, and keep 100% of your profits.
             </p>
           </div>
 
@@ -116,12 +116,12 @@ Location: ${formData.location}`;
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
               <Search className="w-12 h-12 mx-auto mb-4 text-blue-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-lg">More Customers Find You on Google</h3>
+              <h3 className="font-bold text-lg">More Guests Find Your Homestay on Google</h3>
             </button>
 
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
               <TrendingUp className="w-12 h-12 mx-auto mb-4 text-green-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-lg">5x More Bookings</h3>
+              <h3 className="font-bold text-lg">5x More Room Bookings</h3>
             </button>
 
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
@@ -142,10 +142,10 @@ Location: ${formData.location}`;
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              Stop Losing Money to Third-Party Platforms
+              Homestay Owners: Stop Losing Money to Booking Platforms
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See why smart homestay owners are getting more customers from Google business Profile than third party platforms.
+              See why smart homestay and hotel owners are getting more direct bookings from Google Business Profile than from OTAs like MakeMyTrip, Goibibo, and Booking.com.
             </p>
           </div>
 
@@ -166,8 +166,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">Heavy Commissions</h3>
-                      <p className="text-gray-700">Pay <span className="font-bold text-red-600">15-25% commission</span> on every booking. If your room is ₹2,000, you lose ₹300-500 per booking!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Heavy Commissions Eat Your Profits</h3>
+                      <p className="text-gray-700">Pay <span className="font-bold text-red-600">15-25% commission</span> on every room booking to OTAs. If your room is ₹2,000/night, you lose ₹300-500 per booking to platforms!</p>
                     </div>
                   </div>
                 </div>
@@ -181,8 +181,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">Lose Customers to High Prices</h3>
-                      <p className="text-gray-700">You increase prices to cover commissions. Customers see <span className="font-bold text-red-600">inflated rates</span> and book elsewhere!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Lose Guests to High Room Prices</h3>
+                      <p className="text-gray-700">You increase room rates to cover commissions. Guests see <span className="font-bold text-red-600">inflated prices</span> and book your competitor's homestay instead!</p>
                     </div>
                   </div>
                 </div>
@@ -211,8 +211,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">Limited Customer Contact</h3>
-                      <p className="text-gray-700"><span className="font-bold text-red-600">Platform controls</span> all communication. Hard to build relationships and repeat customers!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Limited Guest Contact</h3>
+                      <p className="text-gray-700"><span className="font-bold text-red-600">OTAs control</span> all guest communication. Hard to build relationships and get repeat bookings for your homestay!</p>
                     </div>
                   </div>
                 </div>
@@ -235,8 +235,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">ZERO Commission</h3>
-                      <p className="text-gray-700"><span className="font-bold text-green-600">100% of your earnings</span> stay with you. No sharing profits with anyone!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">ZERO Commission on Room Bookings</h3>
+                      <p className="text-gray-700"><span className="font-bold text-green-600">100% of your room revenue</span> stays with you. No sharing your hard-earned money with OTAs!</p>
                     </div>
                   </div>
                 </div>
@@ -250,8 +250,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">Win More Customers</h3>
-                      <p className="text-gray-700">Offer <span className="font-bold text-green-600">genuine competitive prices</span>. Customers get the best deal directly from you!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Win More Guests for Your Homestay</h3>
+                      <p className="text-gray-700">Offer <span className="font-bold text-green-600">genuine best rates</span> for your rooms. Guests get the best deal booking directly with you!</p>
                     </div>
                   </div>
                 </div>
@@ -265,8 +265,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">Instant Payments</h3>
-                      <p className="text-gray-700">Receive money <span className="font-bold text-green-600">directly and immediately</span> from customers. Better cash flow!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Instant Payment from Guests</h3>
+                      <p className="text-gray-700">Receive money <span className="font-bold text-green-600">directly and immediately</span> from guests at check-in. Better cash flow for your homestay!</p>
                     </div>
                   </div>
                 </div>
@@ -280,8 +280,8 @@ Location: ${formData.location}`;
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">Direct Customer Connection</h3>
-                      <p className="text-gray-700"><span className="font-bold text-green-600">Talk directly via phone or WhatsApp.</span> Build loyalty and repeat bookings!</p>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Direct Connection with Guests</h3>
+                      <p className="text-gray-700"><span className="font-bold text-green-600">Talk directly to guests via phone or WhatsApp.</span> Build relationships and get repeat homestay bookings!</p>
                     </div>
                   </div>
                 </div>
@@ -291,7 +291,7 @@ Location: ${formData.location}`;
 
           {/* Bottom Summary Visual */}
           <div className="mt-16 bg-gradient-to-r from-blue-600 to-green-600 rounded-3xl p-8 md:p-12 text-white text-center">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6">The Smart Choice is Clear</h3>
+            <h3 className="text-3xl md:text-4xl font-bold mb-6">The Smart Choice for Homestay Owners is Clear</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
                 <div className="text-5xl md:text-6xl font-bold mb-2">0%</div>
@@ -303,7 +303,7 @@ Location: ${formData.location}`;
               </div>
               <div className="text-center">
                 <div className="text-5xl md:text-6xl font-bold mb-2">24/7</div>
-                <div className="text-xl">Direct Customer Access</div>
+                <div className="text-xl">Direct Guest Access</div>
               </div>
             </div>
           </div>
@@ -353,10 +353,10 @@ Location: ${formData.location}`;
               YOUR TRANSFORMATION JOURNEY
             </div>
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              How We Improve Your Business in 3 Simple Steps
+              How We Transform Your Homestay Business in 3 Simple Steps
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Watch your homestay transform from struggling to thriving in just 2-3 weeks
+              Watch your homestay or hotel transform from low occupancy to fully booked in just 2-3 weeks
             </p>
           </div>
 
@@ -388,7 +388,7 @@ Location: ${formData.location}`;
                   </div>
                 </div>
 
-                <h3 className="text-xl font-bold text-red-900 mb-4">Before Using Our Services</h3>
+                <h3 className="text-xl font-bold text-red-900 mb-4">Your Homestay Before LTAB</h3>
 
                 <div className="bg-white/80 backdrop-blur rounded-2xl p-4 space-y-3 flex-grow">
                   <div className="flex items-start bg-red-50 p-3 rounded-xl">
@@ -417,15 +417,15 @@ Location: ${formData.location}`;
                     </div>
                     <div className="text-left">
                       <p className="font-bold text-gray-900 text-sm">Hidden on Google Maps</p>
-                      <p className="text-xs text-gray-600">Customers can't find you</p>
+                      <p className="text-xs text-gray-600">Guests can't find your homestay</p>
                     </div>
                   </div>
 
                   <div className="flex items-start bg-red-50 p-3 rounded-xl">
                     <div className="text-2xl mr-2">😰</div>
                     <div className="text-left">
-                      <p className="font-bold text-gray-900 text-sm">Worried about future</p>
-                      <p className="text-xs text-gray-600">Business uncertainty</p>
+                      <p className="font-bold text-gray-900 text-sm">Worried about the future</p>
+                      <p className="text-xs text-gray-600">Homestay business uncertainty</p>
                     </div>
                   </div>
                 </div>
@@ -518,7 +518,7 @@ Location: ${formData.location}`;
                   </div>
                 </div>
 
-                <h3 className="text-xl font-bold text-green-900 mb-4">After Using Our Services</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Your Homestay After LTAB</h3>
 
                 <div className="bg-white/80 backdrop-blur rounded-2xl p-4 space-y-3 flex-grow">
                   <div className="flex items-start bg-green-50 p-3 rounded-xl border-2 border-green-300">
@@ -526,7 +526,7 @@ Location: ${formData.location}`;
                       <Phone className="w-4 h-4 text-green-700" />
                     </div>
                     <div className="text-left">
-                      <p className="font-bold text-gray-900 text-sm">15–20 calls daily</p>
+                      <p className="font-bold text-gray-900 text-sm">15–20 booking calls daily</p>
                       <p className="text-xs font-bold text-green-600">+900% INCREASE!</p>
                     </div>
                   </div>
@@ -554,7 +554,7 @@ Location: ${formData.location}`;
                   <div className="flex items-start bg-green-50 p-3 rounded-xl border-2 border-green-300">
                     <div className="text-2xl mr-2">🎉</div>
                     <div className="text-left">
-                      <p className="font-bold text-gray-900 text-sm">Business is booming!</p>
+                      <p className="font-bold text-gray-900 text-sm">Homestay is fully booked!</p>
                       <p className="text-xs font-bold text-green-600">UNSTOPPABLE!</p>
                     </div>
                   </div>
@@ -687,8 +687,8 @@ Location: ${formData.location}`;
               <div className="bg-purple-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <BarChart3 className="w-10 h-10" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Drive More Business Growth</h3>
-              <p className="text-gray-700">Increase revenue with 5x more direct bookings - no commissions, just profit.</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Increase Your Homestay Revenue</h3>
+              <p className="text-gray-700">Grow your homestay income with 5x more direct bookings - no OTA commissions, just profit.</p>
             </div>
           </div>
         </div>
@@ -735,10 +735,10 @@ Location: ${formData.location}`;
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Claim Your Free Google Business Audit Today
+              Free Google Business Audit for Homestay Owners
             </h2>
             <p className="text-xl text-blue-100">
-              We'll optimize your Google Profile and show you how to beat third-party platforms.
+              We'll optimize your Google Profile and show you how to get more guests without paying OTA commissions.
             </p>
           </div>
 
@@ -794,7 +794,7 @@ Location: ${formData.location}`;
 
               <div>
                 <label htmlFor="businessName" className="block text-gray-900 font-semibold mb-2">
-                  Business Name *
+                  Homestay/Hotel Name *
                 </label>
                 <input
                   type="text"
