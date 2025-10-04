@@ -237,7 +237,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">ZERO Commission on Room Bookings</h3>
-                      <p className="text-gray-700"><span className="font-bold text-green-600">100% of your room revenue</span> stays with you. No sharing your hard-earned money with OTAs!</p>
+                      <p className="text-gray-700"><span className="font-bold text-green-600 text-xl">100% of your room revenue</span> stays with you. No sharing your hard-earned money with OTAs!</p>
                     </div>
                   </div>
                 </div>
@@ -252,7 +252,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Win More Guests for Your Homestay</h3>
-                      <p className="text-gray-700">Offer <span className="font-bold text-green-600">genuine best rates</span> for your rooms. Guests get the best deal booking directly with you!</p>
+                      <p className="text-gray-700">Offer <span className="font-bold text-green-600 text-xl">genuine best rates</span> for your rooms. Guests get the best deal booking directly with you!</p>
                     </div>
                   </div>
                 </div>
@@ -267,7 +267,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Instant Payment from Guests</h3>
-                      <p className="text-gray-700">Receive money <span className="font-bold text-green-600">directly and immediately</span> from guests at check-in. Better cash flow for your homestay!</p>
+                      <p className="text-gray-700">Receive money <span className="font-bold text-green-600 text-xl">directly and immediately</span> from guests at check-in. Better cash flow for your homestay!</p>
                     </div>
                   </div>
                 </div>
@@ -282,7 +282,7 @@ Location: ${formData.location}`;
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Direct Connection with Guests</h3>
-                      <p className="text-gray-700"><span className="font-bold text-green-600">Talk directly to guests via phone or WhatsApp.</span> Build relationships and get repeat homestay bookings!</p>
+                      <p className="text-gray-700"><span className="font-bold text-green-600 text-xl">Talk directly to guests via phone or WhatsApp.</span> Build relationships and get repeat homestay bookings!</p>
                     </div>
                   </div>
                 </div>
