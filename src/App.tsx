@@ -105,8 +105,21 @@ Location: ${formData.location}`;
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Attention: Homestay & Hotel Owners!<br />
-              <span className="text-green-400">Stop paying commissions. Get unlimited guests directly from Google for <span className="text-yellow-400">FREE</span>.</span>
+              <span className="text-green-400">Stop paying commissions.</span>
             </h1>
+
+            {/* OTA Logos */}
+            <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
+              <img src="/162feb52-d9c8-464f-83cd-98b299c0ea23_blurred.png" alt="OTA" className="h-12 md:h-16 opacity-80" />
+              <img src="/619e35f2-ec86-4066-b9b7-834700411be6_blurred.png" alt="OTA" className="h-12 md:h-16 opacity-80" />
+              <img src="/bd4755f6-2366-4cd5-8eb0-7cad06c21438_blurred.png" alt="OTA" className="h-12 md:h-16 opacity-80" />
+              <img src="/fd1fc8c7-3707-48a2-aaf9-59734e52c8b1_blurred.png" alt="OTA" className="h-12 md:h-16 opacity-80" />
+            </div>
+
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-green-400">
+              Get unlimited guests directly from Google for <span className="text-yellow-400">FREE</span>.
+            </h2>
+
             <p className="text-xl md:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
               Are you tired of losing 15-25% on every booking to OTAs? We help homestay and hotel owners like you get more guests directly from Google, increase your room bookings, and keep 100% of your profits.
             </p>
@@ -894,5 +907,3 @@ Location: ${formData.location}`;
 }
 
 export default App;
-
-export default App
