@@ -74,18 +74,6 @@ Location: ${formData.location}`;
           </div>
           <div className="flex items-center gap-4">
             <button
-              onClick={scrollToHome}
-              className="text-gray-700 font-semibold hover:text-blue-600 transition-all"
-            >
-              Home
-            </button>
-            <button
-              onClick={scrollToResults}
-              className="text-gray-700 font-semibold hover:text-blue-600 transition-all"
-            >
-              Results
-            </button>
-            <button
               onClick={scrollToForm}
               className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-all"
             >
