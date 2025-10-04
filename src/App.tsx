@@ -126,7 +126,7 @@ Location: ${formData.location}`;
 
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
               <Shield className="w-12 h-12 mx-auto mb-4 text-red-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-lg">Exclude Third-Party Platforms</h3>
+              <h3 className="font-bold text-lg">Eliminate Third-Party Platforms</h3>
             </button>
 
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
@@ -894,3 +894,6 @@ Location: ${formData.location}`;
 }
 
 export default App;
+
+
+export default App
