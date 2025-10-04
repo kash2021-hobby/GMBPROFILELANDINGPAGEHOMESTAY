@@ -715,30 +715,18 @@ Location: ${formData.location}`;
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
-              <div key={item} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="bg-gradient-to-br from-blue-100 to-green-100 h-64 flex items-center justify-center">
-                  <div className="text-center">
-                    <Award className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-                    <p className="text-gray-600 font-medium">Client Success Story #{item}</p>
-                    <p className="text-sm text-gray-500 mt-2">Screenshot Coming Soon</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="flex items-center">
-                      <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-                      <span className="ml-2 font-bold text-gray-900">100+ Reviews</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Phone className="w-5 h-5 text-green-600" />
-                      <span className="ml-2 font-bold text-gray-900">20+ Calls/Day</span>
-                    </div>
-                  </div>
-                  <p className="text-gray-600 text-sm">Ranking #1 on Google Maps</p>
-                </div>
-              </div>
-            ))}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <img src="/97f2d6a4-1fd9-45e1-b0ad-afe855a5fb9c.png" alt="Client Success Story" className="w-full h-auto" />
+            </div>
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <img src="/1297b04a-ae7e-4f92-a941-4e265993f2c7.png" alt="Client Success Story" className="w-full h-auto" />
+            </div>
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <img src="/a54e422f-3014-4c88-b4be-5a217925e2f4.png" alt="Client Success Story" className="w-full h-auto" />
+            </div>
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <img src="/aafcbe86-c29a-47f2-9321-44482007ff80.png" alt="Client Success Story" className="w-full h-auto" />
+            </div>
           </div>
         </div>
       </section>
