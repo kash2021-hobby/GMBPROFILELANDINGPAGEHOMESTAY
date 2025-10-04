@@ -158,7 +158,7 @@ Location: ${formData.location}`;
               Homestay Owners: Stop Losing Money to Booking Platforms
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See why smart homestay and hotel owners are getting more direct bookings from Google Business Profile than from OTAs like MakeMyTrip, Goibibo, and Booking.com.
+              See why smart homestay and hotel owners are getting more direct bookings from Google Business Profile than from OTAs like Mak*******, Goi****, and Book*******.
             </p>
           </div>
 
