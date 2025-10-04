@@ -668,7 +668,7 @@ Location: ${formData.location}`;
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-gray-900 mb-16">
-            Why 1000+ Businesses Choose LTAB
+            Why Businesses Choose LTAB
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
