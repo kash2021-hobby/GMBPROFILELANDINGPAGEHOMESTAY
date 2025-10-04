@@ -29,6 +29,14 @@ function App() {
     document.getElementById('audit-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToHome = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const scrollToResults = () => {
+    document.getElementById('results-section')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
@@ -64,12 +72,26 @@ Location: ${formData.location}`;
             <img src="/ltabai logo.jpg" alt="LTAB Logo" className="h-12 w-12 mr-3 rounded-full" />
             <span className="text-2xl font-bold text-gray-900">LTAB</span>
           </div>
-          <button
-            onClick={scrollToForm}
-            className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-all"
-          >
-            Get Free Audit
-          </button>
+          <div className="flex items-center gap-4">
+            <button
+              onClick={scrollToHome}
+              className="text-gray-700 font-semibold hover:text-blue-600 transition-all"
+            >
+              Home
+            </button>
+            <button
+              onClick={scrollToResults}
+              className="text-gray-700 font-semibold hover:text-blue-600 transition-all"
+            >
+              Results
+            </button>
+            <button
+              onClick={scrollToForm}
+              className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-all"
+            >
+              Get Free Audit
+            </button>
+          </div>
         </div>
       </header>
 
@@ -673,7 +695,7 @@ Location: ${formData.location}`;
       </section>
 
       {/* Client Results Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section id="results-section" className="py-20 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-gray-900 mb-16">
             Proven Results From Real Homestays
