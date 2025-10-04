@@ -33,9 +33,19 @@ function App() {
     e.preventDefault();
     console.log('Form submitted:', formData);
 
-    const message = `Hi! I'm interested in Google Business Profile optimization.%0A%0AName: ${formData.fullName}%0AWhatsApp: ${formData.whatsapp}%0AEmail: ${formData.email}%0ABusiness: ${formData.businessName}%0ALocation: ${formData.location}`;
+    const message = `Hi! I'm interested in Google Business Profile optimization.
 
-    window.location.href = `https://wa.me/916000683808?text=${message}`;
+Name: ${formData.fullName}
+WhatsApp: ${formData.whatsapp}
+Email: ${formData.email}
+Business: ${formData.businessName}
+Location: ${formData.location}`;
+
+    const encodedMessage = encodeURIComponent(message);
+
+    window.open(`https://wa.me/916000683808?text=${encodedMessage}`, '_blank');
+
+    alert('Thank you! You will be redirected to WhatsApp. Please send the pre-filled message to complete your request.');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
