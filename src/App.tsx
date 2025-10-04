@@ -105,7 +105,7 @@ Location: ${formData.location}`;
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Attention: Homestay & Hotel Owners!<br />
-              <span className="text-green-400">Stop paying commissions.</span>
+              <span className="text-green-400">Stop paying commissions to</span>
             </h1>
 
             {/* OTA Logos */}
