@@ -894,6 +894,3 @@ Location: ${formData.location}`;
 }
 
 export default App;
-
-
-export default App
