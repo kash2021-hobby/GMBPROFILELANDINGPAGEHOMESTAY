@@ -105,7 +105,7 @@ Location: ${formData.location}`;
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Attention: Homestay & Hotel Owners!<br />
-              <span className="text-green-400">Stop paying commissions. Get unlimited guests directly from Google for FREE.</span>
+              <span className="text-green-400">Stop paying commissions. Get unlimited guests directly from Google for <span className="text-yellow-400">FREE</span>.</span>
             </h1>
             <p className="text-xl md:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
               Are you tired of losing 15-25% on every booking to OTAs? We help homestay and hotel owners like you get more guests directly from Google, increase your room bookings, and keep 100% of your profits.
@@ -328,7 +328,7 @@ Location: ${formData.location}`;
       <section className="py-16 px-4 bg-green-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
-            Get Your FREE Google Business Audit Now
+            Get Your <span className="text-yellow-400">FREE</span> Google Business Audit Now
           </h2>
           <button
             onClick={scrollToForm}
@@ -735,7 +735,7 @@ Location: ${formData.location}`;
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Free Google Business Audit for Homestay Owners
+              <span className="text-yellow-400">Free</span> Google Business Audit for Homestay Owners
             </h2>
             <p className="text-xl text-blue-100">
               We'll optimize your Google Profile and show you how to get more guests without paying OTA commissions.
@@ -894,3 +894,5 @@ Location: ${formData.location}`;
 }
 
 export default App;
+
+export default App
