@@ -57,6 +57,22 @@ Location: ${formData.location}`;
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Header */}
+      <header className="bg-white shadow-md py-4 px-4 sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto flex items-center justify-between">
+          <div className="flex items-center">
+            <img src="/ltabai logo.jpg" alt="LTAB Logo" className="h-12 w-12 mr-3 rounded-full" />
+            <span className="text-2xl font-bold text-gray-900">LTAB</span>
+          </div>
+          <button
+            onClick={scrollToForm}
+            className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-all"
+          >
+            Get Free Audit
+          </button>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -802,7 +818,10 @@ Location: ${formData.location}`;
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-green-400">LTAB</h3>
+              <div className="flex items-center mb-4">
+                <img src="/ltabai logo.jpg" alt="LTAB Logo" className="h-16 w-16 mr-3 rounded-full" />
+                <h3 className="text-2xl font-bold text-green-400">LTAB</h3>
+              </div>
               <p className="text-gray-400">Local Travel Accommodation Boosters</p>
               <p className="text-gray-400 mt-2">Helping homestays get direct bookings through Google.</p>
             </div>
@@ -821,11 +840,11 @@ Location: ${formData.location}`;
               <div className="space-y-3">
                 <div className="flex items-center text-gray-400">
                   <MessageCircle className="w-5 h-5 mr-3 text-green-400" />
-                  <a href="https://wa.me/" className="hover:text-green-400 transition-colors">WhatsApp: +91 XXXXX XXXXX</a>
+                  <a href="https://wa.me/916000683808" className="hover:text-green-400 transition-colors">WhatsApp: 6000683808</a>
                 </div>
                 <div className="flex items-center text-gray-400">
                   <Phone className="w-5 h-5 mr-3 text-green-400" />
-                  <span>Email: info@ltab.com</span>
+                  <a href="mailto:Contactus@blueantdigitech.com" className="hover:text-green-400 transition-colors">Email: Contactus@blueantdigitech.com</a>
                 </div>
               </div>
             </div>
