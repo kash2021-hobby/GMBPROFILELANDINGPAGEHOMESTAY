@@ -107,7 +107,7 @@ Location: ${formData.location}`;
               Stop Losing Money to Third-Party Platforms
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See why smart homestay owners are switching from Airbnb, OYO, and MakeMyTrip to Google Business Profile optimization
+              See why smart homestay owners are getting more customers from Google business Profile than third party platforms.
             </p>
           </div>
 
