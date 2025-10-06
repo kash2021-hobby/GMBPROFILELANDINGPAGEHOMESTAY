@@ -75,7 +75,7 @@ Location: ${formData.location}`;
           <div className="flex items-center gap-4">
             <button
               onClick={scrollToForm}
-              className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-all"
+              className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600 transition-all"
             >
               Get Free Audit
             </button>
@@ -889,7 +889,7 @@ Location: ${formData.location}`;
       {/* Sticky CTA Button */}
       <button
         onClick={scrollToForm}
-        className="fixed bottom-8 right-8 bg-green-600 text-white px-6 py-4 rounded-full shadow-2xl hover:bg-green-700 hover:scale-110 transition-all duration-300 font-bold z-50 flex items-center"
+        className="fixed bottom-8 right-8 bg-orange-500 text-white px-6 py-4 rounded-full shadow-2xl hover:bg-orange-600 hover:scale-110 transition-all duration-300 font-bold z-50 flex items-center"
       >
         <Zap className="w-5 h-5 mr-2" />
         Free Audit
