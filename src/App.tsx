@@ -75,7 +75,7 @@ Location: ${formData.location}`;
           <div className="flex items-center gap-4">
             <button
               onClick={scrollToForm}
-              className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600 transition-all"
+              className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-all"
             >
               Get Free Audit
             </button>
