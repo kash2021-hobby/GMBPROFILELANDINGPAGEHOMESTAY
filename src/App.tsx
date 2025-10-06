@@ -131,18 +131,16 @@ Location: ${formData.location}`;
             </button>
 
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
-              <div className="flex justify-start mb-4">
-                <div className="bg-white rounded-lg px-4 py-2 inline-flex items-center justify-center shadow-md border border-gray-200">
-                  <span className="text-2xl font-bold text-gray-900 mr-2">4.5</span>
-                  <div className="flex">
-                    <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-                    <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-                    <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-                    <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-                    <Star className="w-5 h-5 text-gray-300 fill-gray-300" />
-                  </div>
-                  <span className="text-sm text-gray-600 ml-2">(8.6K)</span>
+              <div className="bg-white rounded-lg px-4 py-2 mb-4 mx-auto inline-flex items-center justify-center shadow-md border border-gray-200">
+                <span className="text-2xl font-bold text-gray-900 mr-2">4.5</span>
+                <div className="flex">
+                  <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                  <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                  <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                  <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                  <Star className="w-5 h-5 text-gray-300 fill-gray-300" />
                 </div>
+                <span className="text-sm text-gray-600 ml-2">(8.6K)</span>
               </div>
               <h3 className="font-bold text-lg">10X MORE GOOGLE RATING REVIEWS</h3>
             </button>
