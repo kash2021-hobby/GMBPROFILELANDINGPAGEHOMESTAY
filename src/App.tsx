@@ -116,7 +116,7 @@ Location: ${formData.location}`;
           {/* Feature Buttons */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <button className="bg-white text-blue-900 p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group">
-              <img src="/b91b6ca67e27dc9e2f69544395df2a0a.png" alt="Google" className="w-20 h-20 mx-auto mb-4 object-contain group-hover:scale-110 transition-transform" />
+              <img src="/b91b6ca67e27dc9e2f69544395df2a0a.png" alt="Google" className="w-28 h-28 mx-auto mb-4 object-contain group-hover:scale-110 transition-transform opacity-100" />
               <h3 className="font-bold text-lg">More Guests Find Your Homestay on Google</h3>
             </button>
 
