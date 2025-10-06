@@ -148,7 +148,7 @@ Location: ${formData.location}`;
                 </div>
                 <span className="text-sm text-gray-600 ml-2">(8.6K)</span>
               </div>
-              <h3 className="font-bold text-lg">10X MORE GOOGLE RATING REVIEWS</h3>
+              <h3 className="font-bold text-lg">10x More Google Rating Reviews</h3>
             </button>
           </div>
         </div>
