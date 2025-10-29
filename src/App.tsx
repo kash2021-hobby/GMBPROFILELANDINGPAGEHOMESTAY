@@ -337,7 +337,7 @@ Location: ${formData.location}`;
           <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full aspect-video">
             <iframe
               className="w-full h-full rounded-2xl"
-              src="https://www.youtube.com/embed/bhKofPzDS3g?modestbranding=1&rel=0&showinfo=0&controls=0&autoplay=1&mute=1&loop=1&playlist=bhKofPzDS3g"
+              src="https://www.youtube.com/embed/bhKofPzDS3g?modestbranding=1&rel=0&controls=1"
               title="Homestay Business Transformation"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
