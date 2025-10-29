@@ -334,9 +334,15 @@ Location: ${formData.location}`;
             See How We Transform Local Homestays into Direct Booking Machines
           </h2>
 
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-600 to-blue-800 aspect-video flex items-center justify-center cursor-pointer group hover:shadow-3xl transition-shadow">
-            <div className="absolute inset-0 bg-black opacity-40 group-hover:opacity-30 transition-opacity"></div>
-            <PlayCircle className="w-24 h-24 text-white relative z-10 group-hover:scale-110 transition-transform" />
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full aspect-video">
+            <iframe
+              className="w-full h-full rounded-2xl"
+              src="https://www.youtube.com/embed/bhKofPzDS3g?modestbranding=1&rel=0&showinfo=0&controls=1&autoplay=0"
+              title="Homestay Business Transformation"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </section>
