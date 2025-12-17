@@ -68,10 +68,10 @@ Location: ${formData.location}`;
       {/* Header */}
       <header className="bg-white shadow-md py-4 px-4 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div className="flex items-center">
+          <a href="https://ltabai.in/" className="flex items-center hover:opacity-80 transition-opacity cursor-pointer">
             <img src="/ltabai logo.jpg" alt="LTAB Logo" className="h-12 w-12 mr-3 rounded-full" />
             <span className="text-2xl font-bold text-gray-900">LTAB</span>
-          </div>
+          </a>
           <div className="flex items-center gap-4">
             <button
               onClick={scrollToForm}
@@ -851,10 +851,10 @@ Location: ${formData.location}`;
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <div className="flex items-center mb-4">
+              <a href="https://ltabai.in/" className="flex items-center mb-4 hover:opacity-80 transition-opacity cursor-pointer inline-flex">
                 <img src="/ltabai logo.jpg" alt="LTAB Logo" className="h-16 w-16 mr-3 rounded-full" />
                 <h3 className="text-2xl font-bold text-green-400">LTAB</h3>
-              </div>
+              </a>
               <p className="text-gray-400">Local Travel Accommodation Boosters</p>
               <p className="text-gray-400 mt-2">Helping homestays get direct bookings through Google.</p>
             </div>
